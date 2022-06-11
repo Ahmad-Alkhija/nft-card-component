@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0d1a2d;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image {
+    padding: 10px;
+    position: relative;
+    width: 400px;
+    left: 13px;
+}
+
+.image img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.container {
+    width: 296px;
+    position: absolute;
+    background-color: #15273f;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 35%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    max-width: 420px;
+}
+
+.info-holder {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-holder h3 {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.info-holder .text p {
+    color: #4f6685;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.infos p:first-of-type {
+    color: cyan;
+    padding-left: 20px;
+}
+
+.infos p:last-of-type {
+    color: #7e9bc3;
+    padding-right: 20px;
+}
+
+hr {
+    width: 90%;
+    display: inline-block;
+    border-color: #1e2f49;
+    margin-left: 15px;
+}
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+.creator {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 70px;
+    font-size: small;
+    color: #5f7696;
+}
+
+.creator span {
+    color: white;
+}
+
+
+.footer img {
+    width: 35px;
+    border: 2px solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    left: -120px;
+}
